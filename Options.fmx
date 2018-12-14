@@ -1,0 +1,102 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Options'
+  ClientHeight = 132
+  ClientWidth = 374
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 374.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Contents
+      Fill.Color = xFF346F99
+      Size.Width = 374.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Family, Size]
+        Size.Width = 374.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'toollabel'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Options'
+        TabOrder = 0
+      end
+    end
+    object Button1: TButton
+      Align = Right
+      StyledSettings = [Family]
+      Position.X = 294.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Close'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claTomato
+      OnClick = Button1Click
+    end
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.Y = 50.000000000000000000
+    Size.Width = 111.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Member Number'
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 109.000000000000000000
+    Position.Y = 50.000000000000000000
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, Size, FontColor]
+    Position.Y = 93.000000000000000000
+    Size.Width = 82.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Member Key'
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Text = 'af48bca8a65fc19d701441aecefc9753'
+    Position.X = 80.000000000000000000
+    Position.Y = 93.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Rectangle2: TRectangle
+    Align = Contents
+    Fill.Color = x2E346F99
+    Locked = True
+    HitTest = False
+    Size.Width = 374.000000000000000000
+    Size.Height = 132.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Bitmap.WrapMode = Tile
+    Stroke.Kind = Bitmap
+  end
+end
