@@ -1,5 +1,5 @@
 I used this project UnofficialDelphiPRAXiS
-from FMXExpress to expend it.
+from FMXExpress to expand it.
 
 To use your Key and Number go to
 https://en.delphipraxis.net/ and 
